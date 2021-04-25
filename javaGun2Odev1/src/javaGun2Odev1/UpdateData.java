@@ -15,14 +15,9 @@ public class UpdateData {
 	Courses course2=new Courses(2,14345,"Yazilim Gelistirici Yetistirme Kampi Java,React",32,"Engin Demirog");
 	Courses course3=new Courses(3,14345,"Programlamaya Giris icin Temel Kurs",98,"Engin Demirog");	
 
-	//Courses[] course={course1,course2,course3};
 	CoursesManager coursesManager=new CoursesManager();
 	
-	
-	
-	
-	
-	public UpdateData() {
+	public void listData() {
 
 		for (MainMenu mainMenu:mainMenus) {
 			System.out.println("Menu Item (" + mainMenu.id + "): " + mainMenu.name);
@@ -33,6 +28,6 @@ public class UpdateData {
 		coursesManager.addToCourse(course1);
 		coursesManager.addToCourse(course2);
 		coursesManager.addToCourse(course3);
-		
 	}
+	
 }
