@@ -14,5 +14,9 @@ public class CoursesManager {
 		System.out.println();
 		
 	}
+	
+	public void deleteToCourse(Courses course) {
+		System.out.println(course.userId + " Numarali Oturumun Kurs Bilgisi Silindi");
+	}
 
 }
