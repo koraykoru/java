@@ -2,7 +2,7 @@ package javaGun2Odev1;
 
 public class CoursesManager {
 
-	//userId ileri eðitimlerde userName olarak çaðýrýlabilecek. Þimdilik userId olarak idare
+	//userId ileri egitimlerde userName olarak cagirilebilecek. Simdilik userId olarak idare
 	
 	public void addToCourse(Courses course) {
 		System.out.println(course.userId + " Numaralý Oturuma Eklenen Yeni Kurslar");
